@@ -27,5 +27,5 @@ This project is licensed under the Apache License, Version 2.0 - see the [LICENS
 ## Acknowledgments
 
 * The Adobe Cordova team for supplying a wonderful framework for development.
-* The folks as HP who were supportive of my efforts during development of this app.
+* The folks at HP who were supportive of my efforts during development of this app.
 * My trusty computer. 

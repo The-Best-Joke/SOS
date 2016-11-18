@@ -1,10 +1,10 @@
 # SOS (Supply Chain Onsite Survey)
 
-Repository for HP's SOS Android app
+Welcome to the Github repository for Hewlett-Packard's SOS Android app.
 
 ## Description
 
-The Hewlett-Packard SOS app is an open software Android application created as a means of streamlining the quality assurance work of HP engineers in factories around the country. It aims to aid QAE's in their role and in doing so improve the social and economic benefits of good factory and workspace standards.
+The Hewlett-Packard SOS app is an open software Android application created with Adobe's PhoneGap framework. It was created as a means of streamlining the quality assurance work of HP engineers in factories around the country. It aims to aid QAE's in their role and in doing so improve the social and economic benefits of good factory and workspace standards.
 
 ### Installing
 

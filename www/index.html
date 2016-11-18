@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>SOS</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="title">Categories</div>
+        <div class="circle_block">
+        <a href="fire_safety.html">
+            <svg class="section" id="fire_safety" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><defs><style>.fire-a{fill:#fff;}.fire-b{fill:#c1272d;}</style></defs><title>fire_safety</title><path class="fire-a" d="M36.2,28.79c-3.59,8.69,6.32,16.4,2.2,6.22-5.1-12.8,7.21-20,7.21-20-4.8,7.6,0,10.1,2.6,13s2.5,9.49,2.5,9.49l5.3-8.4a21.59,21.59,0,0,0,1.78,10.3s.82-4.28,2.8-5.89c-.5,1.41.52,5.2,2.2,7.7a14.13,14.13,0,0,1,1,12.88c.32-.15,3.29-2,2-9.68C73.3,59.8,64.9,75,44.59,75,22.1,75,17.3,54.9,24.8,44c-.5,6.59,3.29,6.81,3.29,6.81-3.49-7.6-.2-15-.2-15a5.54,5.54,0,0,0,3.79,6C29.19,30.7,36.2,28.79,36.2,28.79Z" transform="translate(0.01 0.01)"/><path class="fire-b" d="M31.69,41.8a5.54,5.54,0,0,1-3.79-6s-3.29,7.41.2,15c0,0-3.79-.22-3.29-6.81-7.5,10.9-2.7,31,19.79,31C64.9,75,73.3,59.8,65.79,44.4c1.34,7.68-1.63,9.53-2,9.68a14.13,14.13,0,0,0-1-12.88c-1.68-2.5-2.7-6.29-2.2-7.7-2,1.61-2.8,5.89-2.8,5.89A21.59,21.59,0,0,1,56,29.09l-5.3,8.4s.1-6.59-2.5-9.49-7.41-5.4-2.6-13c0,0-12.31,7.21-7.21,20,4.11,10.18-5.8,2.48-2.2-6.22C36.2,28.79,29.19,30.7,31.69,41.8ZM45,0A45,45,0,1,1,0,45,44.94,44.94,0,0,1,45,0Z" transform="translate(0.01 0.01)"/></svg>
+            <div class="underlying_text">Fire Safety</div>
+        </a>
+        </div>
+        <div class="circle_block">
+        <a href="exit_safety.html">
+            <svg class="section" id="exit_safety" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.74 99.74"><defs><style>.exit-a{fill:#39b54a;}.exit-b{fill:#fff;}</style></defs><title>exit_safety</title><circle class="exit-a" cx="49.87" cy="49.87" r="49.87"/><path class="exit-b" d="M80.92,66.76A2.93,2.93,0,0,1,78,69.67H61.35a2.93,2.93,0,0,1-2.9-2.91V50.65h9.84l-2.64,2.64,2.64,2.64,7.07-7.13-7.07-7.14-2.64,2.64L68.29,47H58.44V30.85a2.93,2.93,0,0,1,2.91-2.91H77.93a2.93,2.93,0,0,1,2.91,2.91v35.9ZM30.49,45.49c-.13.13-.2.33-.33.46h0V46h0c-2.31,3.63,3,7,3,7,1.33,1,2.71,1.91,4.16,2.91.27.13.2.4.2.6-.33,3-.53,6.08-.8,9.19a2.21,2.21,0,0,0,0,.66A2.08,2.08,0,0,0,39,68.21a2.19,2.19,0,0,0,2.43-1.93s0-.08,0-.12c.33-3.7.6-7.27.93-10.9a2.21,2.21,0,0,0-.93-2c-1.39-1.06-2.84-2.11-4.3-3.17a2.09,2.09,0,0,0-.4-.33c1.39-1.72,2.71-3.44,4-5.16v.2c-.07,1.19-.2,2.31-.27,3.57-.13.86.27,1.33,1.06,1.33,2.57.2,5,.4,7.6.66a1.83,1.83,0,0,0,2-1.59v-.07a1.74,1.74,0,0,0-1.56-1.9h-.12l-4.69-.4c-.13,0-.33-.07-.53-.07a1.29,1.29,0,0,1,.07-.53c.07-1.39.13-2.84.33-4.23a2.59,2.59,0,0,0-1.06-2.51c-1.52-1.19-3-2.38-4.5-3.5a2.56,2.56,0,0,0-1.52-.6c-2.91-.27-5.75-.46-8.59-.8a1.49,1.49,0,0,0-1.46.66c-1,1.33-2,2.64-2.91,4A1.83,1.83,0,1,0,27.52,41c.73-1,1.39-1.91,2.11-2.84a.5.5,0,0,1,.6-.33c1.72.13,3.5.33,5.23.46.13,0,.27.07.4.07a2.87,2.87,0,0,1-.4.46C33.72,41,32.13,43.25,30.49,45.49ZM17.86,55.21c2.77,1.39,5.62,2.91,8.4,4.3,1.06.53,1.66.4,2.18-.66.8-1.66,1.79-3.44,2.64-5.16a9.3,9.3,0,0,1-3.16-4.36,3.76,3.76,0,0,0-.46.86c-.86,1.72-.8,1.59-1.66,3.24a1.58,1.58,0,0,0-.2.46,3.9,3.9,0,0,0-.53-.27C23.37,52.7,21.64,51.84,20,51a2,2,0,0,0-1.91-.13,2.64,2.64,0,0,0-1.52,2.44A1.82,1.82,0,0,0,17.86,55.21ZM49.45,33a4.68,4.68,0,1,0-5.09,4.23h0a4.64,4.64,0,0,0,5.08-4.15Z" transform="translate(0 -0.26)"/></svg>
+            <div class="underlying_text">Exit Safety</div>
+        </a>
+        </div>
+        <div class="circle_block">
+        <a href="worker_safety.html">
+            <svg class="section" id="worker_safety" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.worker-a{fill:#fff;}.worker-b{fill:#f7931e;}</style></defs><title>worker_safety</title><path class="worker-a" d="M35.5,28H37a1,1,0,0,1,1,1v1a1,1,0,0,1-1,1H11a1,1,0,0,1-1-1V29a1,1,0,0,1,1-1H35.5Z"/><path class="worker-a" d="M24,26a2,2,0,1,0-2-2A2,2,0,0,0,24,26Zm11.47,1H12.51a11.52,11.52,0,0,1,5.54-8.77A12.41,12.41,0,0,1,20,17.31V21h1V15h2.46v3h1V15H27v6h1V17.35a11.25,11.25,0,0,1,1.66.75,11.54,11.54,0,0,1,5.82,9.4C35.46,27.33,35.45,27.16,35.43,27Z"/><path class="worker-b" d="M35.5,28H11a1,1,0,0,0-1,1v1a1,1,0,0,0,1,1H37a1,1,0,0,0,1-1V29a1,1,0,0,0-1-1Zm0-.5a11.54,11.54,0,0,0-5.82-9.4A11.25,11.25,0,0,0,28,17.35V21H27V15H24.46v3h-1V15H21v6H20V17.31a12.41,12.41,0,0,0-1.95.92A11.52,11.52,0,0,0,12.51,27H35.43C35.45,27.16,35.46,27.33,35.48,27.5ZM41,7A24,24,0,1,1,24,0,24,24,0,0,1,41,7Z"/><path class="worker-b" d="M24,22a2,2,0,1,1-2,2A2,2,0,0,1,24,22Z"/></svg>
+            <div class="underlying_text">Worker Safety</div>
+        </a>
+        </div>
+        <div class="circle_block">
+        <a href="labor_ethics.html">
+            <svg class="section" id="labor_ethics" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><style>.labor_ethics-a{fill:#ff7bac;}.labor_ethics-b{fill:#fff;}</style></defs><title>labor_ethics</title><path class="labor_ethics-a" d="M85.36,14.65A50,50,0,1,1,50,0,49.85,49.85,0,0,1,85.36,14.65Z" transform="translate(-0.01 0)"/><path class="labor_ethics-b" d="M48.42,23.78v6.44H31L25.46,56.07H24.19v1.61a8.08,8.08,0,1,0,16.17,0h0v-1.6h-1L33.91,33.45H48.38V72.26H42v3.22H58.12V72.26H51.65V33.45H66.12L61.71,56.09H59.64V57.7a8.08,8.08,0,1,0,16.17,0V56.08H74.14l-5-25.85H51.65V23.78ZM32.17,40.14l3.77,15.94H28.77Zm35.8,1,2.87,14.95H65.06Z" transform="translate(-0.01 0)"/></svg>
+            <div class="underlying_text">Labor & Ethics</div>
+        </a>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>SOS</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="title">Exit Safety</div>
+        <div class="circle_block">
+        <a href="emergency_exit_signs.html">
+            <svg class="section" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><style>.a{fill:#fff;}</style></defs><title>emergency_exit_sign</title><circle cx="50" cy="50" r="50"/><path class="a" d="M42,108H59c.33,0,.29,0,.29.28q0,1.88,0,3.75v.25H47.16v8.89H58.61c0,.09,0,.15,0,.22,0,1.29,0,2.58,0,3.87,0,.19-.07.22-.23.22H47.16v10.25H59.69V140H42Z" transform="translate(-27.93 -74)"/><path class="a" d="M61,140l.09-.2,8.23-15.89a.38.38,0,0,0,0-.39l-7.51-15.32-.1-.22h5.4a.31.31,0,0,1,.33.21l4.9,10.2.11.22.1-.19q2.41-5.11,4.82-10.21a.33.33,0,0,1,.36-.23H83l-.12.25-7.54,15.29a.4.4,0,0,0,0,.4l7.95,15.86.1.22H78a.31.31,0,0,1-.33-.21L72.3,128.67l-.12-.23-.11.22L66.59,139.8a.31.31,0,0,1-.33.21H61Z" transform="translate(-27.93 -74)"/><path class="a" d="M113.83,108v4.26h-7.47c0,.12,0,.21,0,.31q0,13.55,0,27.1c0,.37,0,.32-.31.32h-4.78V112.29h-7.6V108Z" transform="translate(-27.93 -74)"/><path class="a" d="M90.91,140H85.84V108h4.85c.18,0,.24,0,.24.23q0,15.78,0,31.56C90.92,139.85,90.91,139.92,90.91,140Z" transform="translate(-27.93 -74)"/></svg>
+            <div class="underlying_text">Emergency Exit Signs</div>
+        </a>
+        </div>
+        <div class="circle_block">
+        <a href="emergency_exits.html">
+            <svg class="section" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><style>.a{fill:#fff;}</style></defs><title>emergency_exit</title><circle cx="50" cy="50" r="50"/><path class="a" d="M279.83,297.66c-.61,0-1.2,0-1.92,0V306H271v2.29l.45,0c2.78,0,5.6,0,8.38,0,.41,0,.51-.13.51-.51,0-3.22,0-6.44,0-9.65C280.35,297.77,280.21,297.65,279.83,297.66Z" transform="translate(-223 -239.5)"/><path class="a" d="M266.34,267q-6.91,1.71-13.85,3.38c-.4.1-.42.33-.42.65q0,7.24,0,14.47,0,10.48,0,21a.67.67,0,0,0,.53.77l15.6,5.28.5.14c0-.34,0-.63,0-.93q.07-7.51.14-15,.13-12.75.28-25.49c0-1.65.05-3.3.08-4.94h-.09C268.17,266.55,267.26,266.81,266.34,267Z" transform="translate(-223 -239.5)"/><path class="a" d="M282.9,283.35c0,.47-.15.57-.59.57l-10.07,0h-.67v11.25l.52,0h10.15c.63,0,.61,0,.61.65,0,1.48,0,3,0,4.44v.43c3.8-3.73,7.5-7.44,11.2-11.12-3.7-3.7-7.37-7.41-11.11-11.15C282.89,280.06,282.87,281.7,282.9,283.35Z" transform="translate(-223 -239.5)"/><path class="a" d="M277.44,271.69c.4,0,.52.05.52.48,0,2.75-.05,5.51-.05,8.26v.93c.91,0,1.49,0,2.22,0,.07,0,.22-.28.22-.43V269.8c0-.28,0-.48-.4-.48h-8.28l-.28,0v2.4H272C273.84,271.74,275.63,271.71,277.44,271.69Z" transform="translate(-223 -239.5)"/></svg>
+            <div class="underlying_text">Emergency Exits</div>
+        </a>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
